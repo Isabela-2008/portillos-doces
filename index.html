@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portillo's Doces</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="menu-logo">
+  <img src="img/cf80dd3a-e6c3-45db-a3f1-7d5703c1f8a7.jpg" alt="Logo Portillo's Doces" class="logo-redonda">
+  <nav>
+    <a href="#home">Início</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+  <section id="home" class="banner">
+    <h1>Bem-vindo à Portillo's Doces 🍬</h1>
+    <p>Delícias artesanais feitas com amor e sabor!</p>
+    <button onclick="rolarParaProdutos()">Ver Produtos</button>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h2>Nossos Doces</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="img/brigadeirosSortidos.jpeg" alt="Brigadeiro">
+        <h3>Brigadeiros Sortidos</h3>
+        <p>R$ 2,50 / unidade</p>
+      </div>
+      <div class="card">
+        <img src="img/trufasRecheadas.jpg" alt="Trufa">
+        <h3>Trufas Recheadas</h3>
+        <p>R$ 5,00 / unidade</p>
+      </div>
+      <div class="card">
+        <img src="img/boloDePote.jpg" alt="Bolo de Pote">
+        <h3>Bolo de Pote</h3>
+        <p>R$ 10,00</p>
+      </div>
+      <div class="card">
+        <img src="img/cookie.webp" alt="Cookies">
+        <h3>Cookies Artesanais</h3>
+        <p>R$ 7,50 / unidade</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" class="sobre">
+    <h2>Sobre Nós</h2>
+    <p>
+      A <strong>Portillo's Doces</strong> nasceu do amor por confeitaria e do desejo de adoçar momentos especiais. 
+      Trabalhamos com ingredientes selecionados e receitas que encantam pelo sabor e pela beleza.
+    </p>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Entre em Contato</h2>
+    <form id="formContato">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>🍭 Portillo's Doces — Feito com amor e açúcar © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
