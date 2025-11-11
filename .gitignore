@@ -1,0 +1,20 @@
+# Arquivos e pastas que não precisam ser enviados ao repositório
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Backup / cache
+*.tmp
+*.log
+*.bak
+*.swp
+
+# VSCode
+.vscode/
+.history/
+
+# Node (caso use futuramente)
+node_modules/
+dist/
+.env
